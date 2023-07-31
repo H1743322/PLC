@@ -1,0 +1,19 @@
+Int N=5
+Int a[5]
+Int i
+Int input
+MAIN
+While(i<N)
+Do{
+    Read input
+    a[i]=input
+    i=i + 1
+}
+i=4
+While (i>=0)
+Do{
+    Print a[i]+"\n" 
+    i=i - 1
+}
+
+END    

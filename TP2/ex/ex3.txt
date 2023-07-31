@@ -1,0 +1,16 @@
+Int N=4
+Int counter
+Int r
+Int input
+MAIN
+Read input
+r=input
+counter=counter+1
+While(counter<N)
+Do{
+    Read input
+    r=r*input
+    counter=counter+1
+}
+Print r +"\n"
+END    

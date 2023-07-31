@@ -1,0 +1,20 @@
+
+Int N
+Int counter
+Int menor
+Int input
+MAIN
+Read N
+Read input
+menor=input
+counter=counter+1
+While(counter<N)
+Do{
+    Read input
+    If(input<menor){
+        menor=input
+    }
+    counter=counter+1
+}
+Print menor +"\n"
+END    

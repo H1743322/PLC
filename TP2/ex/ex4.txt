@@ -1,0 +1,17 @@
+Int N
+Int count
+Int i
+Int input
+MAIN
+Read N
+While(i<N)
+Do{
+    Read input
+    If!(input % 2 == 0){
+        Print "IMPAR: " + input + "\n"
+        count=count+1
+    }
+    i=i+1
+}
+Print "COUNTER = "+ count+ " \n"
+END    
